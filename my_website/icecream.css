@@ -1,0 +1,32 @@
+Body{
+font-family: "Verdana", Georgia, Serif;
+    background-color:#ffffff;
+color:#003366;
+font-weight: 100;
+font-size: 10px
+}
+h1{
+font-size:1.6em;
+text-align:center;
+}
+table{
+margin-left:auto;
+margin-right: auto;
+text-align:left;
+border-collapse:collapse;
+border-spacing: 2px;
+}
+tr{
+border:1.5px solid #ffffff;
+text-align:center;
+background-color: #8aa3b1;
+}
+th{
+text-align:center;
+color: #ffffff;
+background-color: #234058;
+}
+img{
+    margin-left:auto;
+    margin-right:auto;
+}
