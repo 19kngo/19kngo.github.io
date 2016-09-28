@@ -1,0 +1,12 @@
+.bluetext {
+    color:blue;
+}
+.redtext{
+    color:red;
+}
+.important {
+    font-style:italic;
+}
+#mine{
+font-weight:bold;
+}

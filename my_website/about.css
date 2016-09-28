@@ -1,0 +1,17 @@
+table{
+margin-left:auto;
+margin-right: auto;
+text-align:left;
+border-collapse:collapse;
+border-spacing: 2px;
+}
+tr{
+border:1.5px solid #ffffff;
+text-align:center;
+background-color: #8aa3b1;
+}
+th{
+text-align:center;
+color: #ffffff;
+background-color: #234058;
+}
