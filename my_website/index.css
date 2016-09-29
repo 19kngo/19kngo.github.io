@@ -1,17 +1,26 @@
-Body{
-    font-family:"Times New Roman", Serif;
-    Color:#ffffff;
+body{
+    background-image:url("images/city.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top left;
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
 }
-    ul {
-        list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-    }
-li {
-    text-align: center;
-    border-bottom: 1px solid #555;
+  table{
+margin-left:auto;
+margin-right: auto;
+text-align:center;
+border-collapse:collapse;
+border-spacing: 6px;
+padding:200px;
 }
-
-
+tr{
+border:1.5px solid #ffffff;
+text-align:center;
+}
+.important{
+    font-size:30px;
+}

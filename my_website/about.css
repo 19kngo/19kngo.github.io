@@ -5,8 +5,12 @@ text-align:left;
 border-collapse:collapse;
 border-spacing: 2px;
 }
-tr{
-border:1.5px solid #ffffff;
+table{
+    border-collapse:collapse;
+}
+table,th,td{
+border-color:#ffffff;
+border:1px white;
 text-align:center;
 background-color: #d3d3d3;
 }
@@ -14,4 +18,11 @@ th{
 text-align:center;
 color: #ffffff;
 background-color: #234058;
+}
+h1 {
+    font-family:"Times New Roman", Serif;
+    color:#000000;
+}
+body{
+    background-color:#d3d3d3;
 }

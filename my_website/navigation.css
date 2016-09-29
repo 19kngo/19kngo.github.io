@@ -1,11 +1,13 @@
-.important {
-    
+@import 'https://fonts.googleapis.com/css?family=Amiko';
+Body{
+    font-family:"Amiko",sans-serif;
+    font-size:smaller;
 }
 a:link{
-    color: #234058;
+    color: #ffffff;
 }
 a:visited{
-color: #234058;
+color: #ffffff;
 }
 a:hover{
 color:#d3d3d3;
