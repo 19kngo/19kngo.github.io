@@ -4,10 +4,10 @@ Body{
     font-size:smaller;
 }
 a:link{
-    color: #ffffff;
+    color: #000000;
 }
 a:visited{
-color: #ffffff;
+color: #000000;
 }
 a:hover{
 color:#d3d3d3;

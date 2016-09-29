@@ -1,5 +1,5 @@
 body{
-    background-image:url("images/city.jpg");
+    background-image:url("images/ny.jpg");
     background-repeat:no-repeat;
     background-size:cover;
     background-position:top left;
@@ -18,7 +18,8 @@ border-spacing: 6px;
 padding:200px;
 }
 tr{
-border:1.5px solid #ffffff;
+border:1.5px solid #000000
+;
 text-align:center;
 }
 .important{
