@@ -1,14 +1,22 @@
 body{
-    background-image:url("images/icecream.jpg");
+    background-image:url("images/background.jpg");
     background-repeat:no-repeat;
     background-size:cover;
     background-position:top left;
     width: 100%; 
     background-attachment: scroll;
-    
+
 }
 .important{
     font-size:30px;
     border-style:solid;
-    margin-top:200px;
+    border-color:#000000;
+    margin-top:05px;
+    width:150px;
 }
+.description{
+    font-size:20px;
+    color:black;
+    margin-top:50px;
+}
+
