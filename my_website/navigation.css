@@ -1,6 +1,7 @@
+@import 'https://fonts.googleapis.com/css?family=Muli';
 @import 'https://fonts.googleapis.com/css?family=Amiko';
 Body{
-    font-family:"Amiko",sans-serif;
+    font-family:"Muli",sans-serif;
     font-size:smaller;
 }
 a:link{

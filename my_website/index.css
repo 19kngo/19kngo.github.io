@@ -4,10 +4,8 @@ body{
     background-size:cover;
     background-position:top left;
     width: 100%; 
-    height: 100%; 
-    position: fixed; 
-    left: 0px; 
-    top: 0px; 
+    background-attachment: scroll;
+    
 }
 .important{
     font-size:30px;
