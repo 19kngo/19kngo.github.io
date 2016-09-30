@@ -1,28 +1,25 @@
 table{
 margin-left:auto;
 margin-right: auto;
-text-align:left;
-border-collapse:collapse;
-border-spacing: 2px;
-}
-table{
-    border-collapse:collapse;
-}
-table,th,td{
-border-color:#ffffff;
-border:1px white;
 text-align:center;
-background-color: #d3d3d3;
+border-collapse:collapse;
 }
 th{
-text-align:center;
 color: #ffffff;
 background-color: #234058;
+border:black;
+border-color:black;
+border-style:solid;
+}
+tr{
+    border-style:solid;
+    border-color:black;
+    border-bottom:black;
+    background-color:white;
+    border-collapse:collapse;
+    
 }
 h1 {
     font-family:"Times New Roman", Serif;
     color:#000000;
-}
-body{
-    background-color:#d3d3d3;
 }

@@ -1,5 +1,5 @@
 body{
-    background-image:url("images/ny.jpg");
+    background-image:url("images/icecream.jpg");
     background-repeat:no-repeat;
     background-size:cover;
     background-position:top left;
@@ -9,19 +9,8 @@ body{
     left: 0px; 
     top: 0px; 
 }
-  table{
-margin-left:auto;
-margin-right: auto;
-text-align:center;
-border-collapse:collapse;
-border-spacing: 6px;
-padding:200px;
-}
-tr{
-border:1.5px solid #000000
-;
-text-align:center;
-}
 .important{
     font-size:30px;
+    border-style:solid;
+    margin-top:200px;
 }
