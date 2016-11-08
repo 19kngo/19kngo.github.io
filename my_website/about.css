@@ -12,7 +12,6 @@ background-color: #234058;
 tr{
     background-color:white;
    
-    
 }
 h1 {
     font-family:"Playfair Display", serif;
@@ -21,6 +20,11 @@ h1 {
 p{
     font-family:"Muli", serif;
     font-size:14px;
+    font-style:normal;
+}
+.normal{
+    font-family:"Muli", serif;
+    font-style:normal;
 }
 img{
 Width:150px;
