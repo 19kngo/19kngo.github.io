@@ -1,12 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
 div {
-    font-family: Helvetica, Arial, sans-serif;
-    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 .timeline {
     width: 400px;
 }
 .timeline .timeline-item {
     width: 100%;
+    font-family:'Lato',sans-serif;
 }
 .timeline .timeline-item .info, .timeline .timeline-item .year {
     color: #eee;
@@ -15,6 +19,7 @@ div {
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     transition: all 1s ease;
+    font-family:'Lato',sans-serif;
 }
 .timeline .timeline-item.close .info, .timeline .timeline-item.close .year {
     color: #ccc;
@@ -26,6 +31,7 @@ div {
     font-size: 24px;
     font-weight: bold;
     width: 22%;
+    font-family:'Lato',sans-serif;
 }
 .timeline .timeline-item .info {
     width: 100%;
@@ -35,6 +41,7 @@ div {
     border-left: 4px solid #aaa;
     font-size: 14px;
     line-height: 20px;
+    font-family:'Lato',sans-serif;
 }
 .timeline .timeline-item .marker {
     background-color: #fff;
