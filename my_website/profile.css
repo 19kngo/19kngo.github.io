@@ -1,10 +1,73 @@
-
-h1{
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Amiko');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto');
+body{
+    text-align: center;
+    background-color: white;
+    font-family: 'Muli', sans-serif;
+    color:black;
+    font-weight:normal;
+}
+.navigation{
     text-align:right;
-    text-indent:100px;
-    font-family: "Georgia", Times, serif;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
 }
 
-p {
-    font-family: "Georgia", Times, serif;
+li {
+    float: left;
 }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ 
+}
+a:link{
+    color: #000000;
+}
+a:visited{
+color: #000000;
+}
+a:hover{
+color:#D3D3D3;
+}
+a:active{
+    color:#D3D3D3;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #D3D3D3;
+}
+
