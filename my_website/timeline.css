@@ -1,48 +1,50 @@
-
 @import url('https://fonts.googleapis.com/css?family=Lato');
-
-
 div {
     font-family: 'Lato', sans-serif;
 }
+
 .timeline {
     width: 400px;
 }
+
 .timeline .timeline-item {
     width: 100%;
-    font-family:'Lato',sans-serif;
+    font-family: 'Lato', sans-serif;
 }
-.timeline .timeline-item .info, .timeline .timeline-item .year {
+
+.timeline .timeline-item .info,
+.timeline .timeline-item .year {
     color: #eee;
     display: block;
-    float:left;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    transition: all 1s ease;
+    float: left;
+    font-family: 'Lato', sans-serif;
+}
+
+.timeline .timeline-item.close .info,
+.timeline .timeline-item.close .year {
+    color: black;
     font-family:'Lato',sans-serif;
 }
-.timeline .timeline-item.close .info, .timeline .timeline-item.close .year {
-    color: #ccc;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    transition: all 1s ease;
-}
+
 .timeline .timeline-item .year {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: bold;
     width: 22%;
-    font-family:'Lato',sans-serif;
+    font-family: 'Lato', sans-serif;
 }
+
 .timeline .timeline-item .info {
     width: 100%;
     width: 78%;
     margin-left: -2px;
     padding: 0 0 40px 35px;
     border-left: 4px solid #aaa;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
-    font-family:'Lato',sans-serif;
+    font-family: 'Lato', sans-serif;
+    color:black;
 }
+
 .timeline .timeline-item .marker {
     background-color: #fff;
     border: 4px solid #aaa;
@@ -55,20 +57,20 @@ div {
     z-index: 2000;
     position: relative;
 }
-.timeline .timeline-item.active .info, .timeline .timeline-item:hover .info {
+
+.timeline .timeline-item.active .info,
+.timeline .timeline-item:hover .info {
     color: #444;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
     transition: all 1s ease;
 }
-.timeline .timeline-item.active .year, .timeline .timeline-item:hover .year {
+
+.timeline .timeline-item.active .year,
+.timeline .timeline-item:hover .year {
     color: #9DB668;
 }
+
 .timeline .timeline-item .marker .dot {
     background-color: white;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    transition: all 1s ease;
     display: block;
     border: 4px solid white;
     height: 12px;
@@ -78,10 +80,9 @@ div {
     z-index: 2000;
     position: relative;
 }
-.timeline .timeline-item.active .marker .dot, .timeline .timeline-item:hover .marker .dot {
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    transition: all 1s ease;
+
+.timeline .timeline-item.active .marker .dot,
+.timeline .timeline-item:hover .marker .dot {
     background-color: #9DB668;
     box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
 }

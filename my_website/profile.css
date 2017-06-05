@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 @import url('https://fonts.googleapis.com/css?family=Amiko');
 @import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
 @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto');
 body{
     text-align: center;
@@ -8,9 +9,15 @@ body{
     font-family: 'Lato', sans-serif;
     color:black;
     font-weight:normal;
+    font-size:20px
+}
+}
+h3{
+    font-family: 'Lobster Two', cursive;
 }
 .navigation{
     text-align:right;
+    margin-top: 0px;
 }
 ul {
     list-style-type: none;
